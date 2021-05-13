@@ -1,0 +1,17 @@
+*{
+	cursor: none;
+}
+
+a:hover{
+	background: blue;
+	color: white;
+}
+
+body > *:last-child{
+	position: fixed;
+	display: none;
+	background: red;
+	z-index: 999999;
+	width: 5em;
+	height: 5em;
+}
